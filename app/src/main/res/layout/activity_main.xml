@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff00"
+        android:scaleType="fitStart"
+        android:src="@drawable/firsttop" />
+
+    /ListView>
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:background="#f7ddde"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="20dp"
+        android:background="#f8d0d0"
+        android:text="活动详情"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:background="#f7ddde"
+        android:text="@string/passage"
+        >
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="350dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+
+        android:src="@drawable/firsttwo"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp">
+
+        <ImageView
+            android:id="@+id/image_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:src="@drawable/icon01" />
+
+        <ImageView
+            android:id="@+id/image_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:src="@drawable/icon02"></ImageView>
+
+        <ImageView
+            android:id="@+id/image_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:src="@drawable/icon03"></ImageView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

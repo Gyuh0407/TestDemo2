@@ -57,40 +57,50 @@
 
     <ImageView
         android:id="@+id/image_view2"
-        android:layout_width="350dp"
-        android:layout_height="420dp"
+        android:layout_width="370dp"
+        android:layout_height="750dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="182dp"
+        android:scaleType="fitStart"
 
         android:src="@drawable/firsttwo"></ImageView>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="106dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="185dp">
-
-        <ImageView
-            android:id="@+id/image_view3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="55dp"
-            android:src="@drawable/icon01" />
-
-        <ImageView
-            android:id="@+id/image_view4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="165dp"
-            android:src="@drawable/icon02"></ImageView>
-
-        <ImageView
-            android:id="@+id/image_view5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="280dp"
-            android:src="@drawable/icon03"></ImageView>
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon01"
+        android:text="答题闯关"
+        android:textColor="#fdecec"
+        android:textSize="8dp"></Button>
 
 
-    </RelativeLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon02"
+        android:text="答题闯关"
+        android:textColor="#fdecec"
+        android:textSize="8dp"></Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon03"
+        android:text="答题闯关"
+        android:textColor="#f8eb66"
+        android:textSize="8dp">>
+    </Button>
 
 </FrameLayout>

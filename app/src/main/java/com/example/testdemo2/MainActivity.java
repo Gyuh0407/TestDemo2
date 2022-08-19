@@ -21,12 +21,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView = (ImageView) findViewById(R.id.image_view1);
-        imageView = (ImageView) findViewById(R.id.image_view2);
-        imageView = (ImageView) findViewById(R.id.image_view3);
-        textView = (TextView) findViewById(R.id.first);
-        textView = (TextView) findViewById(R.id.second);
-        textView = (TextView) findViewById(R.id.third);
 
 
     }

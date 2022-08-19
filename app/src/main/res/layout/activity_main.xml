@@ -38,8 +38,7 @@
         android:background="#f8d0d0"
         android:text="活动详情"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        ></TextView>
+        android:textSize="20dp"></TextView>
 
     <TextView
         android:id="@+id/third"
@@ -49,8 +48,7 @@
         android:layout_marginTop="300dp"
         android:layout_marginRight="20dp"
         android:background="#f7ddde"
-        android:text="@string/passage"
-        >
+        android:text="@string/passage">
 
     </TextView>
 
